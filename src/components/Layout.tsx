@@ -15,7 +15,7 @@ function Layout() {
             <Aside />
 
             {/* 右側會隨路由切換的內容：Outlet 代表子 Route 的 element */}
-            <main className="flex-1 min-h-screen bg-gray-100">
+            <main className="flex-1 min-h-screen ">
                 <Outlet />
             </main>
         </div>

@@ -10,13 +10,13 @@ import Japan from './pages/Project1_Go/japan';
 import China from './pages/Project1_Go/china';
 import Taiwan from './pages/Project1_Go/taiwan';
 
-import BounceBall from './pages/bounce-ball';
-import GradeCalc from './pages/grade-calc';
-import ImageSite from './pages/image-site';
-import JapanTravel from './pages/japan-travel';
-import Mern from './pages/mern-project';
-import Protofilio from './pages/portfolio';
-import Snake from './pages/snake';
+import BounceBall from './pages/Project6 Bounce Ball/bounce-ball';
+import GradeCalc from './pages/Project4_GradeCalc/grade-calc';
+import ImageSite from './pages/Project7 Picture/image-site';
+import JapanTravel from './pages/Project2_JapanTravel/japan-travel';
+import Mern from './pages/Project8 MERN/mern-project';
+import Protofilio from './pages/Project3_Protofilo/portfolio';
+import Snake from './pages/Project5 Snake/snake';
 
 export default function App() {
     return (
