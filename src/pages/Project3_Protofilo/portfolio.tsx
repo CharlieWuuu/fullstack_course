@@ -10,7 +10,7 @@ import reactIcon from './ICONS/icons8-react-native.svg';
 
 function Protofilio() {
     return (
-        <div>
+        <div className={Styles.Portfolio}>
             <nav>
                 <ul>
                     <li>

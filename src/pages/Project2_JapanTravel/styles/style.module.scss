@@ -15,7 +15,7 @@ h6 {
     font-weight: normal;
 }
 
-body {
+.japan {
     position: relative;
 
     img.fixed_image {
@@ -75,7 +75,7 @@ body {
         section.background_img {
             // 設定背景圖片
             min-height: 70vh;
-            background-image: url('../images/日本櫻花.jpg');
+            // background-image: url('../images/日本櫻花.jpg');
             background-size: cover;
             background-position: center;
             transition: all 0.75s ease;

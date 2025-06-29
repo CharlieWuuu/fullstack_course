@@ -34,7 +34,7 @@ function JapanTravel() {
     }, [HeroImage]);
 
     return (
-        <div>
+        <div className={Styles.japan}>
             <img className={Styles.fixed_image} src={Fuji} alt="fixed-image" />
 
             <header>
