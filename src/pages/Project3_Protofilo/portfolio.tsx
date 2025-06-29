@@ -1,4 +1,5 @@
 import Styles from './styles/style.module.scss';
+import BublleStyles from './styles/bubble.module.css';
 import { Link } from 'react-router-dom';
 import profileImg from './pictures/avatar.png';
 import LifePhoto from './pictures/lifePhoto.png';
@@ -28,17 +29,17 @@ function Protofilio() {
             </nav>
 
             <main>
-                <div id="background-wrap">
-                    <div className={`${Styles.bubble} ${Styles.x1}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x2}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x3}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x4}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x5}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x6}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x7}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x8}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x9}`}></div>
-                    <div className={`${Styles.bubble} ${Styles.x10}`}></div>
+                <div className={BublleStyles.background_wrap}>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x1}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x2}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x3}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x4}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x5}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x6}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x7}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x8}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x9}`}></div>
+                    <div className={`${BublleStyles.bubble} ${BublleStyles.x10}`}></div>
                 </div>
 
                 <section className={Styles.main_area}>
@@ -58,24 +59,28 @@ function Protofilio() {
 
                         <div className={Styles.progressBarArea}>
                             <p>JavaScript, Web Development</p>
-                            <div className={Styles.progress}>
-                                <div className={`${Styles.progressBar} ${Styles.progressBarStriped} ${Styles.progressBarAnimated}`} role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}></div>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}></div>
                             </div>
+
                             <p>React</p>
-                            <div className={Styles.progress}>
-                                <div className={`${Styles.progressBar} ${Styles.progressBarStriped} ${Styles.progressBarAnimated} ${Styles.bgInfo}`} role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '90%' }}></div>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '90%' }}></div>
                             </div>
+
                             <p>Machine Learning</p>
-                            <div className={Styles.progress}>
-                                <div className={`${Styles.progressBar} ${Styles.progressBarStriped} ${Styles.progressBarAnimated} ${Styles.bgWarning}`} role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}></div>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}></div>
                             </div>
+
                             <p>Deep Learning</p>
-                            <div className={Styles.progress}>
-                                <div className={`${Styles.progressBar} ${Styles.progressBarStriped} ${Styles.progressBarAnimated} ${Styles.bgSuccess}`} role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{ width: '95%' }}></div>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{ width: '95%' }}></div>
                             </div>
+
                             <p>Java, Android</p>
-                            <div className={Styles.progress}>
-                                <div className={`${Styles.progressBar} ${Styles.progressBarStriped} ${Styles.progressBarAnimated} ${Styles.bgDanger}`} role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{ width: '95%' }}></div>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{ width: '95%' }}></div>
                             </div>
                         </div>
                     </section>
@@ -90,7 +95,7 @@ function Protofilio() {
                                 </tr>
                                 <tr>
                                     <td>學歷</td>
-                                    <td>美國楊百翰大學夏威夷分校 電腦科學系學士</td>
+                                    <td>國立臺灣師範大學 地理學系學士</td>
                                 </tr>
                                 <tr>
                                     <td>經歷</td>
@@ -107,8 +112,9 @@ function Protofilio() {
                                     <td>語言</td>
                                     <td>
                                         <ul>
-                                            <li>中文:精通</li>
-                                            <li>英文:精通</li>
+                                            <li>中文：精通</li>
+                                            <li>英文：中級</li>
+                                            <li>日文：中級</li>
                                         </ul>
                                     </td>
                                 </tr>
