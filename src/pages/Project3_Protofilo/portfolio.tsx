@@ -1,5 +1,5 @@
 import Styles from './styles/style.module.scss';
-import BublleStyles from './styles/bubble.module.css';
+import BubbleStyles from './styles/bubble.module.css';
 import { Link } from 'react-router-dom';
 import profileImg from './pictures/avatar.png';
 import LifePhoto from './pictures/lifePhoto.png';
@@ -29,17 +29,17 @@ function Protofilio() {
             </nav>
 
             <main>
-                <div className={BublleStyles.background_wrap}>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x1}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x2}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x3}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x4}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x5}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x6}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x7}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x8}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x9}`}></div>
-                    <div className={`${BublleStyles.bubble} ${BublleStyles.x10}`}></div>
+                <div className={BubbleStyles.background_wrap}>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x1}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x2}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x3}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x4}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x5}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x6}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x7}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x8}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x9}`}></div>
+                    <div className={`${BubbleStyles.bubble} ${BubbleStyles.x10}`}></div>
                 </div>
 
                 <section className={Styles.main_area}>
@@ -58,6 +58,7 @@ function Protofilio() {
                         <p>我的主要技能是JavaScript, React, Machine Learning, Deep Learning, Java以及Android系統開發。</p>
 
                         <div className={Styles.progressBarArea}>
+                            <i>基於 Bootstrap 太容易全域污染，所以不使用此功能</i>
                             <p>JavaScript, Web Development</p>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}></div>
