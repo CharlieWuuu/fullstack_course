@@ -1,7 +1,7 @@
 function BounceBall() {
     return (
-        <div>
-            <canvas id="myCanvas" width="1000px" height="600px"></canvas>
+        <div className="min-h-screen flex justify-center items-center ">
+            <canvas id="myCanvas" className="bg-black" width="600px" height="600px"></canvas>
         </div>
     );
 }
