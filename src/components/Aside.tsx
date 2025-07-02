@@ -13,7 +13,7 @@ const projectArr = [
 
 function Aside() {
     return (
-        <div className="flex flex-col max-w-[200px] min-w-[200px] w-full bg-gray-200 p-4 gap-8">
+        <div className="flex flex-col max-w-[200px] min-w-[200px] w-full bg-gray-200 p-4 gap-8 z-10">
             <Link to="/" className="font-bold text-xl text-gray-900">
                 全端課程成果集
             </Link>

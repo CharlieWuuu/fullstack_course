@@ -1,8 +1,12 @@
 function Snake() {
     return (
         <div>
-            <h1>貪食蛇遊戲頁面</h1>
-            <p>這是貪食蛇遊戲頁面</p>
+            <canvas id="myCanvas" width="320" height="320" style={{ backgroundColor: 'black' }}></canvas>
+            <p id="myScore"></p>
+            <p id="myScore2"></p>
+            <button type="button" id="Start" onClick={() => window.location.reload()}>
+                開始新遊戲
+            </button>
         </div>
     );
 }
