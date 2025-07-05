@@ -1,7 +1,7 @@
 const About = () => {
     return (
-        <div className="about">
-            <h4>關於此網站</h4>
+        <div className="about flex-1 p-4">
+            <h4 className="text-2xl">關於此網站</h4>
             <br />
             <h5>
                 此網站以 React 寫成。使用框架的好處在於：可重複使用的組件，便於建立 SPA 頁面。 <br />

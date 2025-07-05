@@ -10,6 +10,13 @@
 //   font-family: "Roboto", sans-serif;
 // }
 
+@use './nav';
+@use './search';
+@use './footer';
+@use './picture';
+@use './about';
+@use './page404';
+
 #root {
     height: 100%;
     > div {
@@ -43,10 +50,3 @@
         cursor: pointer;
     }
 }
-
-@import './nav';
-@import './search';
-@import './footer';
-@import './picture';
-@import './about';
-@import './page404';

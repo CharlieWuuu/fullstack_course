@@ -127,7 +127,7 @@ export default function SnakeGame() {
     };
 
     return (
-        <div className="flex flex-col items-center gap-4 py-6 text-black">
+        <div className="min-h-screen flex flex-col items-center justify-center gap-4 py-6 text-black">
             <canvas ref={canvasRef} width={CANVAS_SIZE} height={CANVAS_SIZE} className="bg-black rounded shadow-lg" />
             <div className="text-xl font-semibold text-black">分數：{score}</div>
             <div className="text-lg text-black">最高分：{hiScore}</div>

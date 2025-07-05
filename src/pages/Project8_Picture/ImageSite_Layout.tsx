@@ -4,7 +4,7 @@ import Styles from './scss/style.module.scss';
 
 const ImageSite_Layout = () => {
     return (
-        <div>
+        <div className="min-h-screen flex flex-col">
             <nav className={Styles.nav}>
                 <div className={Styles.title}>React Demo 網頁</div>
                 <ul className={Styles.ul}>

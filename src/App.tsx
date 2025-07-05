@@ -10,18 +10,21 @@ import Japan from './pages/Project1_Go/japan';
 import China from './pages/Project1_Go/china';
 import Taiwan from './pages/Project1_Go/taiwan';
 
-import BounceBall from './pages/Project6 Bounce Ball/bounce-ball';
+import BounceBall from './pages/Project6_Bounce Ball/bounce-ball';
 import GradeCalc from './pages/Project4_GradeCalc/grade-calc';
 
 import JapanTravel from './pages/Project2_JapanTravel/japan-travel';
-import Mern from './pages/Project8 MERN/mern-project';
-import Protofilio from './pages/Project3_Protofilo/portfolio';
-import Snake from './pages/Project5 Snake/snake';
 
-import ImageSite_Layout from './pages/Project7 Picture/ImageSite_Layout';
-import ImageSite_Index from './pages/Project7 Picture/ImageSite_Index';
-import ImageSite_About from './pages/Project7 Picture/ImageSite_About';
-import ImageSite_Page404 from './pages/Project7 Picture/ImageSite_Page404';
+import Protofilio from './pages/Project3_Protofilo/portfolio';
+import Snake from './pages/Project5_Snake/snake';
+import Oauth from './pages/Project7_Oauth/oauth';
+
+import ImageSite_Layout from './pages/Project8_Picture/ImageSite_Layout';
+import ImageSite_Index from './pages/Project8_Picture/ImageSite_Index';
+import ImageSite_About from './pages/Project8_Picture/ImageSite_About';
+import ImageSite_Page404 from './pages/Project8_Picture/ImageSite_Page404';
+
+import Mern from './pages/Project9_MERN/mern-project';
 
 export default function App() {
     return (
@@ -44,13 +47,12 @@ export default function App() {
                 <Route path="grade-calc" element={<GradeCalc />} />
                 <Route path="snake" element={<Snake />} />
                 <Route path="bounce-ball" element={<BounceBall />} />
-
+                <Route path="oauth" element={<Oauth />} />
                 <Route path="image-site" element={<ImageSite_Layout />}>
                     <Route index element={<ImageSite_Index />} />
-                    <Route path="image-site/about" element={<ImageSite_About />} />
-                    <Route path="image-site/*" element={<ImageSite_Page404 />} />
+                    <Route path="about" element={<ImageSite_About />} />
+                    <Route path="*" element={<ImageSite_Page404 />} />
                 </Route>
-
                 <Route path="mern-project" element={<Mern />} />
             </Route>
         </Routes>

@@ -7,8 +7,9 @@ const projectArr = [
     { url: '/grade-calc', name: '成績計算網站' },
     { url: '/snake', name: '貪食蛇遊戲' },
     { url: '/bounce-ball', name: '彈跳球遊戲' },
+    // { url: '/oauth', name: 'OAuth網站' },
     { url: '/image-site', name: '圖片網站' },
-    { url: '/mern-project', name: 'MERN專案' },
+    // { url: '/mern-project', name: 'MERN專案' },
 ];
 
 function Aside() {
@@ -25,9 +26,9 @@ function Aside() {
                     </NavLink>
                 ))}
             </div>
-            <div className="flex flex-col gap-2">
+            {/* <div className="flex flex-col gap-2">
                 <p className="font-bold">程式</p>
-            </div>
+            </div> */}
         </div>
     );
 }
